@@ -14,7 +14,7 @@ final class App
         if (self::$pdo === null) {
             try {
                 self::$pdo = new PDO(
-                    'mysql:host=localhost;dbname=blog;charset=utf8',
+                    'mysql:host=localhost;dbname=libmvc;charset=utf8',
                     'root',
                     '',
                     [
